@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>What's Going On Here?</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>
+      <div id="site-title">What's Going On Here?</div>
+      <button type="button" id="new-pic-btn">Add a Situationally Humorous Picture!</button>
+    </header>
+
+    <div id="main">
+      <div class="nav">
+        <p id="left">⇦</p>
+      </div>
+
+      <div id="pic-display">
+        <form id="new-caption-form" autocomplete="off">
+          <input id="new-cap-input" type="text" name="new-cap" placeholder=" Add a caption! 💬💭🗯" required>
+          <input id="new-cap-submit" type="submit" value="Submit">
+        </form> 
+
+        <div id='pictures'>
+        </div>  
+      </div>
+
+      <div class="nav">
+        <P id="right">⇨</P>
+      </div>    
+    </div>
+
+    <div id="captions">
+    </div>
+
+    <div id="new-pic-modal" class="modal">
+      <div class="modal-content">
+        <h1 id="form-heading">Add a picture with caption!</h1>
+
+        <form id="new-pic-form" autocomplete="off">
+          <input id="form-new-pic" type="text" name="new-pic" placeholder=" Add image url here 🖼" required> 
+          <input id="form-new-cap" type="text" name="new-cap" placeholder=" Add caption here 💬💭🗯" required>
+          <input id="form-new-submit" type="submit" value="Submit">
+        </form>
+        
+        <span id="close-form" class="close">&times;</span>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="index.js" defer></script>
+  </body>
+</html>
