@@ -1,0 +1,19 @@
+{
+  "name": "whats-going-on-here-frontend",
+  "version": "1.0.0",
+  "description": "Cartoon caption app. Student project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangrammer/whats-going-on-here-frontend.git"
+  },
+  "author": "@dangrammer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dangrammer/whats-going-on-here-frontend/issues"
+  },
+  "homepage": "https://github.com/dangrammer/whats-going-on-here-frontend#readme"
+}
